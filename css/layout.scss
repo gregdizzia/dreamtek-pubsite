@@ -22,21 +22,20 @@ body
   i{font-style:italic;}
   p{font-size:.7rem;line-height:1.6rem;padding-bottom:1.6rem;}
   
-  section{padding-bottom:1.6rem;}
+  section{padding-bottom:3.2rem;}
 
   section
   {
     ul{padding-left:2%;padding-bottom:1.6rem;padding-top:.8rem;}
     li{font-size:.7rem;border-left:.2rem solid rgb(100,100,100);margin-top:.8rem;margin-bottom:.8rem;text-indent:.5rem;}
   }
-
+  section#form{background-color:rgb(30,30,30);padding:0;}
   form
   {
     box-sizing:border-box;
-    background-color:rgb(30,30,30);
+    margin:0 auto;
     font-size:100%;
-    padding:10%;
-    width:100%;
+    max-width:1000px;
     h3{font-size:.7rem;padding-bottom:1rem;}
     label{font-size:.7rem;}
     hr{margin-bottom:2rem;}

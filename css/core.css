@@ -94,7 +94,7 @@ body p {
   padding-bottom: 1.6rem;
 }
 body section {
-  padding-bottom: 1.6rem;
+  padding-bottom: 3.2rem;
 }
 body section ul {
   padding-left: 2%;
@@ -108,13 +108,16 @@ body section li {
   margin-bottom: 0.8rem;
   text-indent: 0.5rem;
 }
+body section#form {
+  background-color: #1e1e1e;
+  padding: 0;
+}
 body form {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #1e1e1e;
+  margin: 0 auto;
   font-size: 100%;
-  padding: 10%;
-  width: 100%;
+  max-width: 1000px;
 }
 body form h3 {
   font-size: 0.7rem;
