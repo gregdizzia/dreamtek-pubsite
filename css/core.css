@@ -60,14 +60,14 @@ html {
 }
 
 body #outer-wrap {
-  padding: 5% 10%;
+  padding: 4rem 8rem;
   max-width: 1000px;
   margin: 0 auto;
 }
 body #logo {
   width: 100%;
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
 }
 body #logo img {
   width: 60%;
@@ -132,24 +132,13 @@ body form hr {
 body form .form-group {
   padding-bottom: 2rem;
 }
+body form .select-option {
+  padding-bottom: 0.5rem;
+}
 body footer {
   text-align: center;
+  padding: 5% 0;
 }
-body footer .hr {
-  height: 1px;
-  background-color: #646464;
-  width: 100%;
-}
-body footer #byline {
-  padding: 2rem 0;
-  font-size: 0.8rem;
-}
-body footer #byline a {
-  color: #FFDB45;
-}
-body footer #byline #author {
-  padding-top: 0.2rem;
-  font-style: italic;
-  font-size: 0.8rem;
-  color: gray;
+body footer img {
+  width: 15%;
 }

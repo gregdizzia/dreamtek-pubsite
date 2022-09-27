@@ -6,12 +6,12 @@ body
 
   #outer-wrap
   {
-    padding:5% 10%;
+    padding:4rem 8rem;
     max-width:1000px;
     margin:0 auto;
   }
 
-  #logo{width:100%;text-align:center;padding-bottom:4rem;}
+  #logo{width:100%;text-align:center;padding-bottom:6rem;}
   #logo img{width:60%;}
 
   h2{font-size:2rem;font-weight:900;padding-bottom:1rem;font-style:normal;}
@@ -40,22 +40,15 @@ body
     label{font-size:.7rem;}
     hr{margin-bottom:2rem;}
     .form-group{padding-bottom:2rem}
+    .select-option{padding-bottom:.5rem;}
   }
 
   
   footer
   {
     text-align:center;
-
-    .hr{height:1px;background-color:rgb(100,100,100);width:100%;}
-
-    #byline
-    {
-      padding:2rem 0;
-      font-size:.8rem;
-      a{color:#FFDB45;}
-      #author{padding-top:.2rem;font-style:italic;font-size:.8rem;color:rgb(128,128,128);}
-    }
+    padding:5% 0;
+    img{width:15%;}
   }
 
   
